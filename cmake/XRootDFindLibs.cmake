@@ -95,6 +95,7 @@ if( ENABLE_HTTP )
     endif()
     set( BUILD_TPC FALSE )
   endif()
+  set( BUILD_S3 TRUE )
 endif()
 
 if( BUILD_TPC )
